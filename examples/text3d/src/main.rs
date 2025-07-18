@@ -1,3 +1,4 @@
+
 use std::sync::Arc;
 
 use bevy::{prelude::*, window::SystemCursorIcon};
@@ -65,7 +66,7 @@ fn setup(
                     color: Srgba::new(1., 1., 1., 1.),
                     align: TextAlign::Center,
                     font: Arc::from("Rajdhani"),
-                    weight: Weight::BOLD,
+                    weight: Weight::BOLD.into(),
                     ..Default::default()
                 },
                 // Provide a material to this mesh

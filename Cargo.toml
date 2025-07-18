@@ -46,37 +46,38 @@
   #=== GAME ENGINE SOURCE === #
 
   ## GAME ENGINE
-  bevy_asset = { version = "^0.16.0", default-features = false }
-  bevy_app = { version = "^0.16.0", default-features = false }
-  bevy_color = { version = "^0.16.0", default-features = false }
-  bevy_ecs = { version = "^0.16.0", default-features = false }
-  bevy_math = { version = "^0.16.0", default-features = false }
-  bevy_text = { version = "^0.16.0", default-features = false }
-  bevy_sprite = { version = "^0.16.0", default-features = false }
-  bevy_image = { version = "^0.16.0", default-features = false }
-  bevy_render = { version = "^0.16.0", default-features = false}
-  bevy_platform = { version = "^0.16.0", default-features = false }
-  bevy_reflect = { version = "^0.16.0", default-features = false }
-  bevy_transform = { version = "^0.16.0", default-features = false }
-  bevy_log = { version = "^0.16.0", default-features = false }
-  bevy_gizmos = { version = "^0.16.0", default-features = false, features = ["bevy_render"] }
-  bevy_window = { version = "^0.16.0", default-features = false }
-  bevy_picking = { version = "^0.16.0", default-features = false }
-  bevy_input = { version = "^0.16.0", default-features = false }
-  bevy_time = { version = "^0.16.0", default-features = false }
-  bevy_pbr = { version = "^0.16.0", default-features = false }
-  bevy_winit = { version = "^0.16.0", default-features = false, features = ["custom_cursor"]}
-  bevy_derive = { version = "^0.16.0", default-features = false }
+  bevy = { git = "ssh://git@github.com/kharmic-universe-deps/bevy-rs.git", branch = "ku-0.1.0", default-features = false }
+  bevy_asset = { git = "ssh://git@github.com/kharmic-universe-deps/bevy-rs.git", branch = "ku-0.1.0", default-features = false }
+  bevy_app = { git = "ssh://git@github.com/kharmic-universe-deps/bevy-rs.git", branch = "ku-0.1.0", default-features = false }
+  bevy_color = { git = "ssh://git@github.com/kharmic-universe-deps/bevy-rs.git", branch = "ku-0.1.0", default-features = false }
+  bevy_ecs = { git = "ssh://git@github.com/kharmic-universe-deps/bevy-rs.git", branch = "ku-0.1.0", default-features = false }
+  bevy_math = { git = "ssh://git@github.com/kharmic-universe-deps/bevy-rs.git", branch = "ku-0.1.0", default-features = false }
+  bevy_text = { git = "ssh://git@github.com/kharmic-universe-deps/bevy-rs.git", branch = "ku-0.1.0", default-features = false }
+  bevy_sprite = { git = "ssh://git@github.com/kharmic-universe-deps/bevy-rs.git", branch = "ku-0.1.0", default-features = false }
+  bevy_image = { git = "ssh://git@github.com/kharmic-universe-deps/bevy-rs.git", branch = "ku-0.1.0", default-features = false }
+  bevy_render = { git = "ssh://git@github.com/kharmic-universe-deps/bevy-rs.git", branch = "ku-0.1.0", default-features = false}
+  bevy_platform = { git = "ssh://git@github.com/kharmic-universe-deps/bevy-rs.git", branch = "ku-0.1.0", default-features = false }
+  bevy_reflect = { git = "ssh://git@github.com/kharmic-universe-deps/bevy-rs.git", branch = "ku-0.1.0", default-features = false }
+  bevy_transform = { git = "ssh://git@github.com/kharmic-universe-deps/bevy-rs.git", branch = "ku-0.1.0", default-features = false }
+  bevy_log = { git = "ssh://git@github.com/kharmic-universe-deps/bevy-rs.git", branch = "ku-0.1.0", default-features = false }
+  bevy_gizmos = { git = "ssh://git@github.com/kharmic-universe-deps/bevy-rs.git", branch = "ku-0.1.0", default-features = false, features = ["bevy_render"] }
+  bevy_window = { git = "ssh://git@github.com/kharmic-universe-deps/bevy-rs.git", branch = "ku-0.1.0", default-features = false }
+  bevy_picking = { git = "ssh://git@github.com/kharmic-universe-deps/bevy-rs.git", branch = "ku-0.1.0", default-features = false }
+  bevy_input = { git = "ssh://git@github.com/kharmic-universe-deps/bevy-rs.git", branch = "ku-0.1.0", default-features = false }
+  bevy_time = { git = "ssh://git@github.com/kharmic-universe-deps/bevy-rs.git", branch = "ku-0.1.0", default-features = false }
+  bevy_pbr = { git = "ssh://git@github.com/kharmic-universe-deps/bevy-rs.git", branch = "ku-0.1.0", default-features = false }
+  bevy_winit = { git = "ssh://git@github.com/kharmic-universe-deps/bevy-rs.git", branch = "ku-0.1.0", default-features = false, features = ["custom_cursor"]}
+  bevy_derive = { git = "ssh://git@github.com/kharmic-universe-deps/bevy-rs.git", branch = "ku-0.1.0", default-features = false }
 
   #===============================#
   #=== GAME ENGINE EXTENSIONS === #
 
-  bevy_rich_text3d  = { version = "^0.3" }
+  bevy_rich_text3d  = { git = "ssh://git@github.com/kharmic-universe-deps/bevy-rich-text3d-rs.git", branch = "ku-0.1.0" }
 
   #===========================#
   #=== RUST MISCELLANEOUS === #
   
   radsort   = { version = "^0.1.1" }
   colored   = { version = "^3.0.0" }
-  rand      = { version = "^0.9.1" }
-  getrandom = { version = "^0.3.3", features = ["wasm_js"]}
+  rand      = { version = "^0.9" }
+  getrandom = { version = "^0.3", features = ["wasm_js"]}
